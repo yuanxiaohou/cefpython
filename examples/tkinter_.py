@@ -57,7 +57,7 @@ def main():
     app = MainFrame(root)
     # Tk must be initialized before CEF otherwise fatal error (Issue #306)
     cef.Initialize()
-    app.mainloop()
+    tk.mainloop()
     cef.Shutdown()
 
 
